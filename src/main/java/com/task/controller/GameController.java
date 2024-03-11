@@ -23,7 +23,7 @@ public class GameController {
 		generatedNumber = new Random().nextInt(MAX_NUMBER) + 1;
 		remainingAttempts = MAX_ATTEMPTS;
 		totalScore = 0;
-		return "Welcome to Guess the Number game! \nGuess a number between 1 and " + MAX_NUMBER + generatedNumber;
+		return "Welcome to Guess the Number game! \nGuess a number between 1 and " + MAX_NUMBER;
 	}
 
 	@PostMapping("/guess")
